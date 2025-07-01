@@ -2,49 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>DeLeón Crosby Teaching</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ariana de Leon Crosby | English Teacher</title>
   <style>
-    * { box-sizing: border-box; margin:0; padding:0; }
-    body { font-family: sans-serif; background:#f5f5f5; color:#222; }
-    a { color:#1a0dab; }
-    .container { width:90%; max-width:700px; margin:2rem auto; text-align:center; }
-
-    .photo { width:150px; height:150px; border-radius:50%; margin:1.5rem auto; object-fit:cover;}
-    h1 { font-size:2rem; margin-bottom:.5rem; }
-    p.tagline { font-size:1.1rem; color:#555; margin-bottom:2rem; }
-
-    .btn-bar { display:flex; flex-wrap:wrap; gap:1rem; justify-content:center; margin-bottom:2rem; }
-    .btn, .dropdown { position:relative; background:#1a0dab; color:#fff; padding:.7rem 1.4rem;
-      border:none; border-radius:4px; text-decoration:none; cursor:pointer; display:inline-block;
-      font-size:1rem; }
-    .btn:hover, .dropdown:hover { background:#155ab3; }
-    .dropdown-content {
-      display:none; position:absolute; top:110%; left:0; background:#fff;
-      border:1px solid #ccc; border-radius:4px; min-width:220px; z-index:10;
-      text-align:left;
-    }
-    .dropdown-content div {
-      padding:.6rem 1rem; color:#222;
-      border-bottom: 1px solid #eee;
-    }
-    .dropdown-content div:last-child {
-      border-bottom: none;
-    }
-
-    section { margin-bottom:2rem; text-align:left; }
-    section h2 { color:#1a0dab; margin-bottom:.5rem; }
-    section p { margin-bottom:.8rem; line-height:1.5; }
-
-    footer { text-align:center; margin:3rem 0; color:#777;}
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f5f5f5; color: #222; line-height: 1.6; }
+    a { color: #1a0dab; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 800px; margin: 2rem auto; padding: 0 20px; }
+    .hero { text-align: center; margin-bottom: 2rem; }
+    .hero img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; }
+    .hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .hero p { font-size: 1.2rem; color: #666; }
+    .nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin: 2rem 0; }
+    .btn, .dropdown { background: #1a0dab; color: white; padding: 0.6rem 1.2rem; border-radius: 4px; cursor: pointer; position: relative; }
+    .dropdown-content { display: none; position: absolute; background: white; color: #000; top: 110%; left: 0; min-width: 200px; border: 1px solid #ccc; z-index: 1; text-align: left; }
+    .dropdown-content a { display: block; padding: 0.5rem 1rem; border-bottom: 1px solid #eee; color: #000; text-decoration: none; }
+    .dropdown-content a:hover { background: #f0f0f0; }
+    .dropdown:hover .dropdown-content { display: block; }
+    section { margin: 3rem 0; }
+    footer { text-align: center; margin: 4rem 0 2rem; color: #777; font-size: 0.9rem; }
   </style>
 </head>
 <body>
   <div class="container">
-    <img src="https://via.placeholder.com/150" class="photo" alt="DeLeón Crosby"/>
-    <h1>DeLeón Crosby Teaching</h1>
-    <p class="tagline">Empowering students through dynamic instruction and real-world experience.</p>
+    <div class="hero">
+      <img src="https://via.placeholder.com/150" alt="Ariana de Leon Crosby">
+      <h1>Ariana de Leon Crosby</h1>
+      <p>English Teacher</p>
+    </div>
 
-    <div class="btn-bar">
-      <a href="#about" class="btn"
+    <div class="nav">
+      <a href="#about" class="btn">About</a>
+      <a href="#literacy" class="btn">Literacy</a>
+      <div class="dropdown">
+        Moreland ▼
+        <div class="dropdown-content">
+          <a href="#class1">Foundations of Education</a>
+          <a href="#class2">Classroom Management</a>
+          <a href="#class3">Curriculum Design</a>
+          <a href="#class4">Assessment & Evaluation</a>
+          <a href="#class5">Instructional Technology</a>
+        </div>
+      </div>
+      <a href="#clinical" class="btn">Clinical</a>
+      <a href="#intasc" class="btn">INTASC Standards</a>
+      <a href="#contact" class="btn">Contact</a>
+    </div>
 
+    <section id="about">
+      <h2>About</h2>
+      <p>I have been teaching in South Korea for several years now, specializing in English and Writing.</p>
+      <p>I have a Bachelors of Art in English and Creative Writing with a concentration in Fiction, and have a great dedication to teaching literature.</p>
+      <p><a href="#contact">Get in touch!</a></p>
+    </section>
+
+    <section id="literacy">
+      <h2>Literacy</h2>
+      <p>(This section is currently blank.)</p>
+    </section>
+
+    <section id="clinical">
+      <h2>Clinical</h2>
+      <p>(This section is currently blank.)</p>
+    </section>
+
+    <section id="intasc">
+      <h2>INTASC Standards</h2>
+      <p><strong>I. The Learner and Learning</strong></p>
+      <p><strong>Standard 1:</strong> Learner Development — The teacher understands how learners grow and develop, recognizing that patterns of learning and development vary individually within and across the cognitive, linguistic, social, emotional, and physical areas, and designs and implements developmentally appropriate and challenging learning experiences.</p>
+      <p><strong>Standard 2:</strong> Learning Differences — The teacher uses understanding of individual differences and diverse cultures and communities to ensure inclusive learning environments that enable each learner to meet high standards.</p>
+      <p><strong>Standard 3:</strong> Learning Environments — The teacher works with others to create environments that support individual and collaborative learning, and that encourage positive social interaction, active engagement in learning, and self motivation.</p>
+
+      <p><strong>II. Content</strong></p>
+      <p><strong>Standard 4:</strong> Content Knowledge — The teacher understands the central concepts, tools of inquiry, and structures of the discipline(s) he or she teaches and creates learning experiences that make the discipline accessible and meaningful for learners to assure mastery of the content.</p>
+      <p><strong>Standard 5:</strong> Application of Content — The teacher understands how to connect concepts and use differing perspectives to engage learners in critical thinking, creativity, and collaborative problem solving related to authentic local and global issues.</p>
+
+      <p><strong>III. Instructional Practice</strong></p>
+      <p><strong>Standard 6:</strong> Assessment — The teacher understands and uses multiple methods of assessment to engage learners in their own growth, to monitor learner progress, and to guide the teacher’s and learner’s decision making.</p>
+      <p><strong>Standard 7:</strong> Planning for Instruction — The teacher plans instruction that supports every student in meeting rigorous learning goals by drawing upon knowledge of content areas, curriculum, cross-disciplinary skills, and pedagogy, as well as knowledge of learners and the community context.</p>
+      <p><strong>Standard 8:</strong> Instructional Strategies — The teacher understands and uses a variety of instructional strategies to encourage learners to develop deep understanding of content areas and their connections, and to build skills to apply knowledge in meaningful ways.</p>
+
+      <p><strong>IV. Professional Responsibility</strong></p>
+      <p><strong>Standard 9:</strong> Professional Learning and Ethical Practice — The teacher engages in ongoing professional learning and uses evidence to continually evaluate his/her practice, particularly the effects of his/her choices and actions on others (learners, families, other professionals, and the community), and adapts practice to meet the needs of each learner.</p>
+      <p><strong>Standard 10:</strong> Leadership and Collaboration — The teacher seeks appropriate leadership roles and opportunities to take responsibility for student learning, to collaborate with learners, families, colleagues, other school professionals, and community members to ensure learner growth, and to advance the profession.</p>
+
+      <p><em>Moreland University. (n.d.-a). INTASC model core teaching standards and learning progressions for teachers. CCSSO Learning Portal InTASC Model Core Teaching Standards and Learning Progressions for Teachers Comments. <a href="https://learning.ccsso.org/intasc-model-core-teaching-standards-and-learning-progressions-for-teachers" target="_blank">Link</a></em></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>The Greater Seoul Metropolitan Area, South Korea</p>
+      <p>Timezone: GMT+9; KST</p>
+      <p>000-000-0000</p>
+      <p><a href="mailto:user@domain.tld">user@domain.tld</a></p>
+    </section>
+
+    <footer>
+      &copy; 2025 Ariana de Leon Crosby — Hosted on GitHub Pages
+    </footer>
+  </div>
+</body>
+</html>
