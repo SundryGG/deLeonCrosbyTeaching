@@ -1,1 +1,83 @@
-/* same style.css as before (shortened here) */
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #ffffff;
+    color: #111111;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header and navigation */
+header, nav {
+    background-color: #111111;
+    color: #f0e68c; /* goldish accent */
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a {
+    color: #f0e68c;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    color: #888;
+    font-size: 0.9em;
+}
+
+/* Buttons and links */
+button, .button, a.button {
+    background-color: #f0e68c;
+    color: #111111;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover, .button:hover, a.button:hover {
+    background-color: #e6d87a;
+}
+
+/* Utility */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}

@@ -7,8 +7,84 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="literacy.html">Literacy</a>
+  <a href="clinical.html">Clinical</a>
+  <a href="intasc.html">INTASC Standards</a>
+  <a href="contact.html">Contact</a>
+  <div class="dropdown">
+    <span>Moreland</span>
+    <div class="dropdown-content">
+      <a href="moreland/assessment.html">Assessment</a>
+      <a href="moreland/curriculum.html">Curriculum</a>
+      <a href="moreland/diversity.html">Diversity</a>
+      <a href="moreland/foundations.html">Foundations</a>
+      <a href="moreland/instruction.html">Instruction</a>
+      <a href="moreland/management.html">Management</a>
+      <a href="moreland/professionalism.html">Professionalism</a>
+      <a href="moreland/technology.html">Technology</a>
+    </div>
+  </div>
+</nav>
+
+<style>
+  nav {
+    background-color: #111;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  nav a, .dropdown span {
+    color: #f0e68c;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover, .dropdown span:hover {
+    color: #ffffff;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 160px;
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: #f0e68c;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #333;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown span {
+    cursor: pointer;
+  }
+</style>
+
   <header><div class="container center"><h1>Instruction</h1></div></header>
   <main class="container"><h1>Instructional Practice</h1><p>(This course page is under construction.)</p></main>
   <footer><div class="container center"><p>&copy; 2025 Ariana de Leon Crosby — Hosted on GitHub Pages</p></div></footer>
 </body>
 </html>
+
